@@ -1,0 +1,65 @@
+// Variables Overrides
+
+$theme-color:(
+    "primary": #1A1919
+);
+
+
+// Bootstrap Sass Files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+footer{
+    background: #1A1919;
+}
+.yellow{
+    color: rgb(201, 154, 52);
+}
+
+.jumbotron{
+    padding-top: 20px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.65) 0%, transparent 100%),
+                url('https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/678/big/glenn-carstens-peters-203007-unsplash.jpg')no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    background: #1A1919 !important;
+
+}
+
+.btn-primary{
+    background-color: #000 !important;
+    border-color: #fff !important;
+}
+
+.a-footer{
+
+    color: #fff !important;
+}
+
+.button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 7px 118px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+p{
+    font-size: 16px !important;
+}
+
+h2{
+   color: white !important;
+   font-weight: bold !important;
+}
+
+.jumbotron p{
+    color: white !important;
+}
